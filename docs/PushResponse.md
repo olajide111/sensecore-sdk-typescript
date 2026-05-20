@@ -1,0 +1,26 @@
+# PushResponse
+
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**meter_id** | **string** |  | [default to undefined]
+**records_accepted** | **number** |  | [default to undefined]
+**records_rejected** | **number** |  | [default to undefined]
+**message** | **string** |  | [default to undefined]
+
+## Example
+
+```typescript
+import { PushResponse } from '@sensecore/sdk';
+
+const instance: PushResponse = {
+    meter_id,
+    records_accepted,
+    records_rejected,
+    message,
+};
+```
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
