@@ -1,7 +1,7 @@
 /* tslint:disable */
 /**
  * SenseCore AI API
- * ## SenseCore AI — Commercial Energy Intelligence  AI-powered energy forecasting, carbon reporting, anomaly detection, fuel poverty scoring, and occupancy inference for UK buildings.  **Model:** Temporal Fusion Transformer (BDG2) | **MAPE:** 10.31%  **Sectors:** NHS · Local Authorities · Schools · Housing Associations · SMEs · Residential
+ * ## SenseCore AI — Commercial Energy Intelligence  AI-powered energy forecasting, carbon reporting, anomaly detection, fuel poverty scoring, and occupancy inference for UK buildings.  **Forecasting:** each meter from its own history; accuracy back-tested per meter against ASHRAE Guideline 14 (GET /api/v1/forecast/accuracy/{meter_id}/methods)  **Sectors:** NHS · Local Authorities · Schools · Housing Associations · SMEs · Residential
  *
  * The version of the OpenAPI document: 1.0.0
  * 
